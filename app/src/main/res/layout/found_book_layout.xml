@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_blur">
+
+    <TextView
+        android:id="@+id/FoundBookHeading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="@string/found_book_heading"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/FoundBookSpinner"
+        android:layout_width="277dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/FoundBookHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:background="@drawable/edit_text_background"
+        android:spinnerMode="dropdown">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/FoundBookTitle"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/FoundBookSpinner"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/book_title"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        />
+
+    <EditText
+        android:id="@+id/FoundBookDate"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/FoundBookTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/item_found_date"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:clickable="true"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/FoundBookPlace"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="120dp"
+        android:layout_below="@id/FoundBookDate"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/item_found_place"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/FoundBookRoomNo"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/FoundBookPlace"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/room_no"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/FoundBookSpecialNotes"
+        android:layout_width="277dp"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@id/FoundBookRoomNo"
+        android:layout_marginTop="30dp"
+        android:hint="@string/special_notes_about_item"
+        android:textColorHint="@android:color/white"
+        android:paddingLeft="10dp"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:id="@+id/FoundBookSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:layout_below="@id/FoundBookSpecialNotes"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/login_button_background"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/FoundBookBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:layout_below="@id/FoundBookSpecialNotes"
+        android:layout_alignBaseline="@id/FoundBookSubmitButton"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/grey_round_button"/>
+
+
+</RelativeLayout>

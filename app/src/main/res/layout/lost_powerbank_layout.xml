@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_blur">
+
+    <TextView
+        android:id="@+id/LostPowerBankHeading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="@string/lost_powerbank_heading"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/LostPowerBankCompanyName"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostPowerBankHeading"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/company_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/LostPowerBankCapacity"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostPowerBankCompanyName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/powerbank_capacity"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/LostPowerBankColor"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostPowerBankCapacity"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/color"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/LostPowerBankDate"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostPowerBankColor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/item_lost_date"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:clickable="true"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/LostPowerBankPlace"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="120dp"
+        android:layout_below="@id/LostPowerBankDate"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/item_lost_place"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/LostPowerBankRoomNo"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostPowerBankPlace"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/room_no"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/LostPowerBankSpecialNotes"
+        android:layout_width="277dp"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@id/LostPowerBankRoomNo"
+        android:layout_marginTop="20dp"
+        android:hint="@string/special_notes_about_item"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/LostPowerBankSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:layout_below="@id/LostPowerBankSpecialNotes"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/login_button_background"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/LostPowerBankBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:layout_below="@id/LostPowerBankSpecialNotes"
+        android:layout_alignBaseline="@id/LostPowerBankSubmitButton"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/grey_round_button"/>
+
+
+</RelativeLayout>

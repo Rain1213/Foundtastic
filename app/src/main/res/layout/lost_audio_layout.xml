@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_blur"
+    >
+
+    <TextView
+        android:id="@+id/LostAudioHeading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="@string/lost_audio_heading"
+        android:layout_marginTop="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/LostAudioSpinner"
+        android:layout_width="277dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/LostAudioHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:background="@drawable/edit_text_background"
+        android:spinnerMode="dropdown">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/LostAudioCompanyName"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostAudioSpinner"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/company_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/LostAudioColor"
+        android:layout_below="@id/LostAudioCompanyName"
+        android:layout_marginTop="30dp"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginLeft="10dp"
+        android:hint="Color"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/LostAudioDate"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostAudioColor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/item_lost_date"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:clickable="true"
+        android:focusable="false"
+        />
+
+    <!--
+    <EditText
+        android:id="@+id/LostAudioDate"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostAudioColor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/item_lost_date"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+     -->
+
+    <EditText
+        android:id="@+id/LostAudioPlace"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="120dp"
+        android:layout_below="@id/LostAudioDate"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/item_lost_place"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/LostAudioRoomNo"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostAudioPlace"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/room_no"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/LostAudioSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:layout_below="@id/LostAudioRoomNo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/login_button_background"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/LostAudioBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:layout_below="@id/LostAudioRoomNo"
+        android:layout_alignBaseline="@id/LostAudioSubmitButton"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/grey_round_button"/>
+
+</RelativeLayout>

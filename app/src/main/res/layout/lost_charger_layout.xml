@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_blur"
+    >
+
+    <TextView
+        android:id="@+id/LostChargerHeading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="@string/lost_charger_heading"
+        android:layout_marginTop="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/LostChargerSpinner"
+        android:layout_width="277dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/LostChargerHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:background="@drawable/edit_text_background"
+        android:spinnerMode="dropdown">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/LostChargerCompanyName"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostChargerSpinner"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/company_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/LostChargerColor"
+        android:layout_below="@id/LostChargerCompanyName"
+        android:layout_marginTop="30dp"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/color"
+        android:textColorHint="@android:color/white"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/LostChargerDate"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostChargerColor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/item_lost_date"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:clickable="true"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/LostChargerPlace"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="120dp"
+        android:layout_below="@id/LostChargerDate"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/item_lost_place"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/LostChargerRoomNo"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/LostChargerPlace"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/room_no"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/LostChargerSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:layout_below="@id/LostChargerRoomNo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/login_button_background"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/LostChargerBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:layout_below="@id/LostChargerRoomNo"
+        android:layout_alignTop="@id/LostChargerSubmitButton"
+        android:layout_alignBaseline="@id/LostChargerSubmitButton"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/grey_round_button"/>
+
+</RelativeLayout>

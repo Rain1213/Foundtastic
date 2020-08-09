@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lostandfound">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".MyAccountActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminLoginPopUp"
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity android:name=".TwoButtonsActivity" />
+        <activity
+            android:name=".LostPageActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostWatchActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostAudioActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostusbActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostBookActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostBagActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostChargerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostPowerBankActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostMobileActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LostOthersActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundPageActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundWatchActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundAudioActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundusbActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundBookActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundBagActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundChargerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundPowerBankActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundMobileActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FoundOthersActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OnlyEmail"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

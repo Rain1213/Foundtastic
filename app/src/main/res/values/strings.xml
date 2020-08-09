@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Foundtastic</string>
+
+    <string name="lostbutton_name">LOST Something? Click Here</string>
+    <string name="foundbutton_name">FOUND Something? Click Here</string>
+    <string name="introduction_name">Welcome to Charusat Lost and Found</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account_signup">Create Account and Sign In</string>
+    <string name="login">LOG IN</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="login_button_name">LOG IN</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="lost_grid_heading">LOST ITEMS</string>
+    <string name="found_grid_heading">FOUND ITEMS</string>
+    <string name="back_button">BACK</string>
+    <string name="LoginErrorText">Incorrect User Id and Password</string>
+    <string name="welcome_admin">Welcome ADMIN</string>
+    <string name="two_buttons_layout_text">WELCOME!\nYou are only few steps away to register a lost/found item
+       \n\nPlease proceed by clicking any of the below buttons.</string>
+    <string name="book_title">Main Title of Book</string>
+    <string name="data_capacity">Data Capacity</string>
+    <string name="others_item_name">Item Name(e.g.Bag,Pen)</string>
+    <string name="company_name">Company Name</string>
+    <string name="mobile_company_name">Company Name(e.g. Oppo,Vivo)</string>
+    <string name="mobile_model_name">Model Name(e.g. F11 Pro,V15 Pro)</string>
+    <string name="color">Color of Item</string>
+    <string name="item_lost_date">Item Lost Date</string>
+    <string name="item_lost_place">Item Lost Place</string>
+    <string name="item_found_date">Item Found Date</string>
+    <string name="item_found_place">Item Found Place</string>
+    <string name="room_no">Room or Lab Number</string>
+    <string name="submitted_layout_text">THANK YOU!\nYour request has been Successfully Submitted</string>
+    <string name="special_notes_about_item">Special Notes About the Item</string>
+    <string name="powerbank_capacity">Battery Capacity(in mAh)</string>
+
+    <string name="login_page_heading">LOST AND FOUND For CHARUSAT</string>
+    <string name="lost_watch_heading">Please Enter below details regarding your Lost Watch</string>
+    <string name="lost_audio_heading">Please Enter below details regarding your Lost Audio Device</string>
+    <string name="lost_usb_heading">Please Enter below details regarding your Lost USB Device</string>
+    <string name="lost_book_heading">Please Enter below details regarding your Lost Book</string>
+    <string name="lost_bag_heading">Please Enter below details regarding your Lost Bag</string>
+    <string name="lost_charger_heading">Please Enter below details regarding your Lost Charger</string>
+    <string name="lost_powerbank_heading">Please Enter below details regarding your Lost Powerbank</string>
+    <string name="lost_mobile_heading">Please Enter below details regarding your Lost Mobile</string>
+    <string name="lost_others_heading">Please Enter below details regarding your Lost Thing</string>
+
+
+    <string name="found_watch_heading">Please Enter below details regarding Found Watch</string>
+    <string name="found_audio_heading">Please Enter below details regarding Found Audio Device</string>
+    <string name="found_usb_heading">Please Enter below details regarding Found USB Device</string>
+    <string name="found_book_heading">Please Enter below details regarding Found Book</string>
+    <string name="found_bag_heading">Please Enter below details regarding Found Bag</string>
+    <string name="found_charger_heading">Please Enter below details regarding Found Charger</string>
+    <string name="found_powerbank_heading">Please Enter below details regarding Found Powerbank</string>
+    <string name="found_mobile_heading">Please Enter below details regarding Found Mobile</string>
+    <string name="found_others_heading">Please Enter below details regarding Found Thing</string>
+
+    <string-array name="items">
+        <item>Watch</item>
+        <item>Audio Devices</item>
+        <item>Mobile</item>
+        <item>USB Drives</item>
+        <item>Book</item>
+        <item>Bag</item>
+        <item>Chargers</item>
+        <item>Powerbank</item>
+        <item>--Others--</item>
+    </string-array>
+
+    <string-array name="watches">
+        <item>--Select an Item--</item>
+        <item>Analog Watch</item>
+        <item>Digital Watch</item>
+        <item>Smart Watch</item>
+    </string-array>
+    <string-array name="audio_devices">
+        <item>--Select an Item--</item>
+        <item>Headphones</item>
+        <item>Wired Earphones</item>
+        <item>Bluetooth Earphones</item>
+        <item>Truly Wireless Earbuds</item>
+        <item>Bluetooth Speakers</item>
+        <item>Apple Airpods</item>
+        <item>Apple Earphones</item>
+    </string-array>
+    <string-array name="usb_devices">
+        <item>--Select an Item--</item>
+        <item>Pendrive</item>
+        <item>Harddrive</item>
+    </string-array>
+    <string-array name="book_types">
+        <item>--Select an Item--</item>
+        <item>NOT a Book from Library</item>
+        <item>Book from Library</item>
+    </string-array>
+    <string-array name="charger_types">
+        <item>--Select an Item--</item>
+        <item>Mobile Charger</item>
+        <item>iPhone Charger</item>
+        <item>Laptop Charger</item>
+    </string-array>
+    <string-array name="places_types">
+        <item>DEPSTAR Building</item>
+        <item>EC Building</item>
+        <item>ADMIN Building</item>
+        <item>RPCP/Pharmacy Building</item>
+        <item>Mechanical Building</item>
+    </string-array>
+</resources>

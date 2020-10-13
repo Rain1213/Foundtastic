@@ -1,2 +1,7 @@
 # LostAndFoundApp
- A lost and found application for Charusat University
+ The Main idea behind this project is to build an Android App to help find lost items in the university. Two kinds of people would help make this app possible; firstly, those who have lost something and secondly the good Samaritans who are kind enough to report any item they have found.
+To make use of the app you first have to login to it. If the user does not have an account, he/she can easily create a new one. Once Logged in, you are given an option to either click on the “Lost” or the “Found” button which will direct you to two separate pages and where you have the freedom to choose from various item type. You will be required to enter the details of the item lost/found and click on “Submit” button. If the details of lost and found items match, people who have reported the item will be notified.
+
+Our Application “Foundtastic” is unfortunately only limited to the university campus. It also compulsorily requires internet connection to operate, for databases have to be stored in the firebase database. 
+
+With our previous knowledge in Java we ventured out to learn more on how Android application are made and their databases are stored. We wanted to use our creativity and knowledge to give back to the society, especially our university. Since there was an ongoing problem with many different items being lost or being found in the campus, we were motivated to build an application in this direction. 
